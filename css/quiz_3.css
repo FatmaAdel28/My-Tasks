@@ -1,0 +1,68 @@
+body{
+ /* background-image: url(../../image/quiz/quiz_3/exercise-weights-iron-dumbbell-with-extra-plates.jpg); */
+ /* background-image: url(../../image/quiz/quiz_3/top-view-perfectly-ordered-fitness-items.jpg); */
+  /* background-image: url(../../image/quiz/quiz_3/top-view-red-weights-with-copy-space.jpg);  */
+ /* background-image: url(../../image/quiz/quiz_3/view-gym-room-training-sports.jpg);   */
+  background-image: url(../../image/quiz/quiz_3/gym_room_darker.jpg);  
+
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 83lvh;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+section{
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    font-size: 15px;
+    width: max-content;
+    margin:110px 600px ;
+
+
+}
+
+label , input , p ,button , a{
+padding: 5px;
+    margin: 10px;
+}
+
+.password{
+    margin: 5px;
+     
+
+}
+
+
+
+button{
+   background-color: rgb(190, 40, 190);
+    border-radius: 12px;
+    border-color: white;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+a{
+    text-decoration: none;
+     color: rgb(16, 155, 183);
+}
+
+p{
+    font-family: PT Serif;
+    font-style:  Italic;
+}
+#singin{
+    font-size: 20px;
+    font-style: bold;
+    color: rgb(215, 48, 22);
+}
+
+
+
+
