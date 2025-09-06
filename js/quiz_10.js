@@ -1,9 +1,6 @@
 let title = document.createElement('h1');
 title.innerHTML = 'DOM Manipulation Task';
-let section = document.createElement('section');
 let divOne = document.createElement('div');
-let divTow = document.createElement('div');
-let divThree = document.createElement('div');
 let pOne = document.createElement('p');
 let pTow = document.createElement('p');
 let pThree = document.createElement('p');
