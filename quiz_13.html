@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/quiz_13.css">
+    </head>
+
+    <body>
+
+
+        <div class="form">
+            <form>
+                
+                <select id="dropdown" >
+                    <option value="">-- Choose Cart --</option>
+                </select>
+                <button type="button" onclick="addSelected()" >Add</button>
+            </form>
+        </div>
+       <section class="showAll hideAll section">
+<section id="cartId" class="card">
+            <h2>Your Cart Details</h2>
+            <ul>
+                <li>User ID : <span id="cartUser"></span></li>
+                <li>Total Products : <span id="totalProducts"></span></li>
+                <li>Total Quantity : <span id="totalQuantity"></span></li>
+                <li>discounted Total : <span id="discountedTotal"></span></li>
+                <hr>
+                <li>Total Price : <span id="total"></span> </li> 
+            </ul>
+
+        </section>
+
+        <section>
+            
+            <h2>Your Cart Products</h2>
+            <table id="showPruducts">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Title</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Discount Percentage</th>
+                        <th>Total</th>
+                        <th>Discounted Total</th>
+                    </tr>
+                </thead>
+                <tbody id="productsDetails" >
+
+                </tbody>                
+            </table>
+        </section>
+
+       </section>
+
+        
+        <script src="js/quiz_13.js"></script>
+    </body>
+</html>
